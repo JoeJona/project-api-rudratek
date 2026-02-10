@@ -44,6 +44,6 @@ exports.updateProject = async (req, res) => {
 
 // DELETE Project
 exports.deleteProject = async (req, res) => {
-  await Project.findByIdAndDelete(req.params.id);
+  await Project.findOneAndDelete({id: req.params.id});
   res.json({ message: "User deleted" });
 };
