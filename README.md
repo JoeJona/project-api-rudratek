@@ -2,7 +2,7 @@
 
 ### 1. Strat with
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/JoeJona/project-api-rudratek.git
 
 
 cd your-repo
